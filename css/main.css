@@ -1,0 +1,51 @@
+body{
+  font-family: 'Special Elite', cursive;
+}
+.primary-overlay{
+  background-color: rgba(191, 54, 12,0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.main-header{
+  background: url("../img/monogatari\ \(1\).jpg");
+  background-size: cover;
+  min-height: 700px;
+  position: relative;
+}
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    font-size: 1.2rem;
+  }
+  .main-header{
+    background-position: center;
+    min-height: 600px
+  }
+  .section-quote-1 h3{
+    font-size: 2.5rem;
+  }
+}
+.showcase{
+  padding-top: 100px 
+}
+.section-quote-1{
+  position: relative;
+  background: url("../img/hitagi\ \(2\).png");
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 400px;
+}
+.section-quote-2{
+  position: relative;
+  background: url("https://vignette.wikia.nocookie.net/bakemonogatari1645/images/2/27/Shinobu_owari.png/revision/latest/scale-to-width-down/640?cb=20161221050149");
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 400px;
+}
